@@ -1,0 +1,19 @@
+doctype = tells the browser which version of html/xhtml standard is used and how to render the page
+
+differences between visibility:hid
+
+
+
+em means - % of the current size
+
+session storage -  available only when browser is opened
+
+local storage - survives on closing and reopening a browser
+
+data attributes - store custom data directly in html tags
+
+svg - scalable vector graphic
+
+!important = over ride the style
+
+

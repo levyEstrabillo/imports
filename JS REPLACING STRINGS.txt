@@ -1,0 +1,27 @@
+var title = document.getElementById('id_title');
+            var slug = document.getElementById('id_slug');
+            
+            const slugify = (val) => {
+                return val.toString().toLowerCase().trim()
+                .replace(/&/g, '-and-')
+                .replace(/[\s\W-]+/g,'-')
+            };
+
+            $(title).keyup(function(){
+                slug.setAttribute('value', slugify(title.value))
+           
+
+
+
+
+
+		}
+
+
+
+
+
+
+
+
+/[\s\W-]+/g
