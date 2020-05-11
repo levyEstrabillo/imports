@@ -1,0 +1,6 @@
+list = get
+
+create = post
+
+retrieve = get -> with id params (pk = None)
+
