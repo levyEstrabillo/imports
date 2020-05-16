@@ -1,0 +1,55 @@
+John-11111001010
+
+github
+levyEstrabillo 11111001010
+
+skype/linkedin
+John11111001010
+
+
+
+virtualenv env
+
+env\scripts\activate
+
+install dependencies
+
+http://sayhelloworld.co/how-to-deploy-django-project-to-heroku/
+
+web: gunicorn portfolio.wsgi --log-file -
+
+lims10env/
+__pycache__/
+*.sqlite3
+
+
+python-3.8.1
+
+if os.getcwd() == '/app':
+    import dj_database_url
+    db_from_env = dj_database_url.config(conn_max_age=500)
+    DATABASES['default'].update(db_from_env)
+
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    ALLOWED_HOSTS = ['johnestrabillo-portfolio.herokuapp.com']
+    DEBUG = True
+
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+
+	
+
+'whitenoise.middleware.WhiteNoiseMiddleware',
+
+
+git init
+
+heroku git:remote -a project_name
+
+git remote -v
+
+
+
+
+

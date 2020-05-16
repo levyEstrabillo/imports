@@ -1,0 +1,9 @@
+python -m venv venv
+
+venv\Scripts\activate
+
+djangovue>pip install django djangorestframework
+
+django-admin start project
+
+django-admin start app
